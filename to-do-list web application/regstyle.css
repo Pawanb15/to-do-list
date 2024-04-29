@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: apple-system,sans-serif;
+}
+body{
+	overflow: hidden;
+}
+.container{
+	width: 100%;
+	min-height: 100vh;
+	background: #052542;
+	padding: 20px;
+	position: relative;
+
+}
+.login-box{
+	align-items: center;
+	background:#fff;
+	width: 100%;
+	max-width: 480px;
+	margin: 150px 500px 50px;
+	padding: 10px;
+	border-radius: 10px;
+	position: relative;
+}
+h1{
+	padding-top: 10px;
+	margin-left: 140px;
+}
+.content{
+	padding: 50px;
+}
+input{
+	width: 80%;
+}
+.login-box h1{
+	font-family: Kalam Static;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.items input{
+	margin: 10px 5px;
+	padding: 10px;
+}
+
+.btn{
+	padding-top: 10px;
+	padding-left: 50px;
+}
+button {
+	border: none;
+	outline: none;
+	background: #052542;
+	color: #fff;
+	margin: 5px ;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+}
